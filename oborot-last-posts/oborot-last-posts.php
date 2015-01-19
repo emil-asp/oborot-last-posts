@@ -53,7 +53,7 @@ if (!class_exists('OborotLastPosts')) {
             add_action('save_post', [ &$this, 'saveCustomFields'], 0); // Сохраняем пользовательские поля для записи
 
             add_action('oborot_get_lat_posts', [ &$this, 'showLastPosts']); // Хук на действие oborot_get_lat_posts - выводим десять записей
-
+            add_action('oborot_get_last_posts', [ &$this, 'showLastPosts']); // Возможно что в распечатанном задании ошибка, я на всякий случай добавил и на это действие
         }
 
         /**
