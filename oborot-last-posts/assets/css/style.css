@@ -1,0 +1,33 @@
+.disabledField{
+    border-color: #e0dfce;
+    background-color: #bbb6b0 !important;
+}
+
+.oborot-last-posts-article{
+    margin: 10px;
+    padding: 5px 20px;
+    border: 1px #a1b8cc solid;
+    background: #fff;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.oborot-last-posts-article:hover{
+    background-color: #edefff;
+}
+
+.oborot-last-posts-article .entry-meta{
+
+}
+
+.float-left{ float: left; }
+.float-right{ float: right; }
+
+.align-right{ text-align: right; }
+.clearfix{ clear: both; }
