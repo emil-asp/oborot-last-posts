@@ -35,7 +35,7 @@ if (!class_exists('OborotLastPosts')) {
         /**
          * Коснструктор
          */
-        function OborotLastPosts()
+        public function OborotLastPosts()
         {
             define('OborotLastPosts', true); // Объявляем константу инициализации нашего плагина
 
@@ -191,19 +191,19 @@ if (!class_exists('OborotLastPosts')) {
          * Активация плагина
          * @return bool
          */
-        function activate(){ return true; }
+        public function activate(){ return true; }
 
         /**
          * Деактивация плагина
          * @return bool
          */
-        function deactivate() { return true; }
+        public function deactivate() { return true; }
 
         /**
          * Удаление плагина
          * @return bool
          */
-        function uninstall() { return true; }
+        public function uninstall() { return true; }
     }
 }
 
